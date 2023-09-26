@@ -1,3 +1,4 @@
+import math
 # Task 1: Data Types
 
 age = 17
@@ -55,3 +56,14 @@ check_number(0)
 
 # Task 4: Loops
 
+numbers = [69, 96, 420, 17, 30]
+
+print("Square Roots:")
+for num in numbers:
+    print(math.sqrt(num))
+
+print("Cubed values:")
+i = 0
+while i < len(numbers):
+    print(numbers[i] ** 3)
+    i += 1
